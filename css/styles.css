@@ -1,0 +1,88 @@
+:root {
+  --font-size: 16px;
+  --container-width: 1110px;
+  --main-color: #4e5a65;
+  --main-weight: 400;
+  --font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--main-color);
+  font-weight: var(--main-weight);
+  text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1440px;
+  grid-template-rows: repeat(6, 1fr);
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.container {
+  min-width: var(--container-width);
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menuHeader > nav > ul {
+  display: flex;
+}
+
+.menuHeader > nav > ul > li {
+  padding-right: 30px;
+}
+
+.menuHeader > nav > ul > li:nth-child(4) {
+  padding-right: 0;
+}
+
+.logoHeader {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: calc(1.5 * var(--font-size));
+  color: black;
+}
+
+.menuHeaderLink,
+.logHeader,
+.btnFree {
+  font-family: var(--font-family);
+  color: #35414b;
+  font-size: var(--font-size);
+  font-weight: var(--main-weight);
+}
+
+.menuHeaderLink > i {
+  padding-left: 5px;
+  font-size: calc(0.8 * var(--font-size));
+  font-weight: var(--main-weight);
+}
+
+.logHeader {
+  padding-right: 15px;
+}
+
+.btnFree {
+  padding: 15px 20px;
+  color: #794cff;
+  font-weight: 500;
+  background-color: #ece5ff;
+  border-radius: 5px;
+}
