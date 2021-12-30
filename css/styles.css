@@ -20,6 +20,7 @@ body {
   grid-template-columns: 1440px;
   grid-template-rows: repeat(6, 1fr);
   justify-content: center;
+  overflow-x: hidden;
 }
 
 a {
