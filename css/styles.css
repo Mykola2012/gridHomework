@@ -197,3 +197,188 @@ h1 {
   min-height: 25px;
   object-fit: cover;
 }
+
+.message {
+  margin-top: 100px;
+  padding: 60px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fbfafe;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.timeline {
+  display: flex;
+  min-width: 400px;
+  border: 1px solid #e1e5ea;
+  padding: 70px 30px 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.timeline > span {
+  position: absolute;
+  top: 90px;
+  font-weight: 500;
+}
+
+.iconMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+
+.iconMessage > i {
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.fa-comment-dots {
+  color: #f4cc4e;
+  background-color: #fdf8e8;
+  margin-top: 15px;
+}
+
+.fa-clock {
+  color: #0dce5e;
+  background-color: #e5f8ed;
+  margin-bottom: 75px;
+}
+
+.dateMessage {
+  font-size: 11px;
+  text-align: left;
+  padding: 15px;
+}
+
+.dateMessage > span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.textMessage {
+  font-size: 13px;
+  border: 1px solid #e1e5ea;
+  border-radius: 5px;
+  padding: 16px;
+  text-align: left;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.textMessage > span {
+  color: #3b7ff6;
+  font-size: 13px;
+}
+
+.textMessageEnd {
+  position: relative;
+  bottom: -4px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.answer {
+  position: absolute;
+  top: 230px;
+  left: 560px;
+  border: 1px solid #e1e5ea;
+  border-radius: 5px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.answerBox {
+  padding: 30px;
+}
+
+.user {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.userPhoto {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userName {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.positionWork {
+  font-size: 9px;
+}
+
+.messageReply {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+  border: 1px solid #e1e5ea;
+  border-radius: 5px;
+  padding: 15px 40px 120px 15px;
+}
+
+.messageReply > span {
+  font-size: 13px;
+  color: #3b7ff6;
+}
+
+.btnSend {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #3b7ff6;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  margin-left: 205px;
+}
+
+.benefits {
+  padding-top: 20px;
+}
+
+.benefitsText {
+  max-width: 372px;
+  border-bottom: 1px solid #e1e5ea;
+  padding: 25px;
+}
+
+.benefitsText:nth-child(4) {
+  border-bottom: none;
+}
+
+.benefitsText:hover {
+  border: 1px solid #e1e5ea;
+  border-left: 8px solid #794cff;
+  background-color: #f6f3fc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.benefitsTitle {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.benefitsInfo {
+  line-height: 24px;
+  text-align: left;
+  padding-top: 10px;
+}
