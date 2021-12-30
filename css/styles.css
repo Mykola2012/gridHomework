@@ -18,7 +18,7 @@
 body {
   display: grid;
   grid-template-columns: 1440px;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, auto);
   justify-content: center;
   overflow-x: hidden;
 }
