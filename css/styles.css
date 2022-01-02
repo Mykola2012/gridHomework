@@ -202,11 +202,9 @@ h1 {
 .message {
   margin-top: 100px;
   padding: 60px 0;
-  /* position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; */
   background-color: #fbfafe;
+  border-top: 1px solid #f0ebfa;
+  border-bottom: 1px solid #f0ebfa;
   width: 100vw;
   position: relative;
   left: 50%;
