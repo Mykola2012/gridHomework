@@ -2,6 +2,7 @@
   --font-size: 16px;
   --container-width: 1110px;
   --main-color: #4e5a65;
+  --title-color: #35414b;
   --main-weight: 400;
   --font-family: "Inter", sans-serif;
 }
@@ -21,6 +22,7 @@ body {
   grid-template-rows: repeat(6, auto);
   justify-content: center;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 a {
@@ -29,7 +31,7 @@ a {
 }
 
 .container {
-  min-width: var(--container-width);
+  max-width: var(--container-width);
 }
 
 .mainHeader {
@@ -140,7 +142,7 @@ h1 {
   font-size: calc(4 * var(--font-size));
   font-weight: 600;
   line-height: 72px;
-  color: #35414b;
+  color: var(--title-color);
 }
 
 .textHeader {
@@ -201,7 +203,7 @@ h1 {
 
 .message {
   margin-top: 100px;
-  padding: 60px 0;
+  padding: 60px 0 120px;
   background-color: #fbfafe;
   border-top: 1px solid #f0ebfa;
   border-bottom: 1px solid #f0ebfa;
@@ -256,7 +258,7 @@ h1 {
 
 .fa-comment-dots::after {
   position: absolute;
-  top: 140px;
+  top: 138px;
   left: 46px;
   content: "";
   width: 1px;
@@ -267,16 +269,16 @@ h1 {
 .fa-clock {
   color: #0dce5e;
   background-color: #e5f8ed;
-  margin-bottom: 55px;
+  margin-bottom: 60px;
 }
 
 .fa-clock::after {
   position: absolute;
-  top: 450px;
+  top: 443px;
   left: 46px;
   content: "";
   width: 1px;
-  height: 35px;
+  height: 40px;
   background-color: #e1e5ea;
 }
 
@@ -394,17 +396,98 @@ h1 {
   background-color: #f6f3fc;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  transition: border-left 0.5s;
+  transition: border-left 0.3s;
 }
 
 .benefitsTitle {
   font-size: 18px;
   font-weight: 600;
   text-align: left;
+  color: var(--title-color);
 }
 
 .benefitsInfo {
   line-height: 24px;
   text-align: left;
   padding-top: 10px;
+}
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  margin: 100px 0;
+}
+
+.advantagesMainTitle {
+  grid-column: 1 / 4;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+.advantagesBox {
+  padding-top: 50px;
+  padding-right: 65px;
+  text-align: left;
+}
+
+.advantagesBoxCenter {
+  justify-self: center;
+}
+
+.advantagesBoxEnd {
+  justify-self: end;
+  padding-right: 0;
+}
+
+.advantagesBox > i {
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.fa-chart-bar {
+  color: #f49c4e;
+  background-color: #fef6ee;
+}
+
+.fa-address-book {
+  color: #23cec9;
+  background-color: #e8fafa;
+}
+
+.fa-chalkboard-teacher {
+  color: #b84dc5;
+  background-color: #f7ebf9;
+}
+
+.fa-comments {
+  color: #f65d88;
+  background-color: #ffeff3;
+}
+
+.fa-network-wired {
+  color: #5526b3;
+  background-color: #ede8f7;
+}
+
+.fa-cogs {
+  color: #f4a45d;
+  background-color: #fef5ec;
+}
+
+.advantagesTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--title-color);
+  text-align: left;
+  padding-top: 24px;
+}
+
+.advantagesText {
+  max-width: 306px;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 8px;
 }
