@@ -16,13 +16,12 @@
   text-align: center;
 }
 
-body {
+.gridContainer {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(6, auto);
   justify-content: center;
   overflow-x: hidden;
-  margin: 0 auto;
 }
 
 a {
@@ -100,7 +99,7 @@ a {
   position: relative;
 }
 
-/* .save::after {
+.save::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -111,7 +110,7 @@ a {
   border-radius: 50%;
   background-color: #fbfafe;
   border: 1px solid #f0ebfa;
-} */
+}
 
 .save > span,
 .getAccount {
