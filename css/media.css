@@ -267,6 +267,10 @@
     flex-direction: column;
   }
 
+  .formHeader > span {
+    padding: 20px 60px;
+  }
+
   .linkForm {
     border-radius: 5px;
     margin-top: 10px;
@@ -353,11 +357,61 @@
   .advantagesBtn {
     margin-top: 50px;
     padding: 18px 85px;
+    font-size: 0.9rem;
     font-weight: 500;
     color: #7259fa;
     background-color: #ece5ff;
     border-radius: 5px;
     display: inline;
     justify-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menuHeader {
+    justify-content: space-between;
+  }
+
+  .logoHeader {
+    padding-left: 30px;
+  }
+
+  .menuBtn {
+    padding-right: 30px;
+  }
+
+  .save::after {
+    width: 2770px;
+    height: 2770px;
+  }
+
+  h1 {
+    max-width: 310px;
+    font-size: 2.3rem;
+    line-height: 35px;
+  }
+
+  .textHeader {
+    max-width: 310px;
+  }
+
+  .imgHeader {
+    max-width: 330px;
+  }
+
+  .teamText {
+    font-size: 0.8rem;
+  }
+
+  .teamText > span {
+    font-size: 0.8rem;
+  }
+
+  .iconLink {
+    padding: 10px 20px;
+  }
+
+  .timelineimg {
+    max-width: 300px;
   }
 }
