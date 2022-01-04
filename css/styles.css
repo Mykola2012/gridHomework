@@ -101,7 +101,7 @@ a {
   position: relative;
 }
 
-.save::after {
+/* .save::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -112,7 +112,7 @@ a {
   border-radius: 50%;
   background-color: #fbfafe;
   border: 1px solid #f0ebfa;
-}
+} */
 
 .save > span,
 .getAccount {
@@ -215,7 +215,7 @@ h1 {
   margin-right: -50vw;
 }
 
-.boxBg {
+.messageBox {
   max-width: 1110px;
   position: relative;
   display: flex;
@@ -434,6 +434,7 @@ h1 {
 
 .advantagesBoxCenter {
   justify-self: center;
+  padding-left: 40px;
 }
 
 .advantagesBoxEnd {

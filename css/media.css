@@ -1,0 +1,42 @@
+@media screen and (max-device-width: 1049px) {
+  .menuHeader {
+    justify-content: space-around;
+  }
+
+  .iconCompany {
+    justify-content: space-around;
+  }
+
+  .messageBox {
+    justify-content: space-around;
+  }
+
+  .fa-comment-dots::after {
+    left: 107px;
+  }
+
+  .fa-clock::after {
+    left: 107px;
+  }
+
+  .answer {
+    top: 200px;
+    left: 200px;
+  }
+
+  .advantages {
+    padding: 0 20px 0;
+  }
+
+  .advantagesBox {
+    padding-right: 55px;
+  }
+
+  .advantagesBoxEnd {
+    padding-right: 0;
+  }
+
+  .advantagesBoxCenter {
+    padding-left: 15px;
+  }
+}
