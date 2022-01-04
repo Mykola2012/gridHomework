@@ -24,6 +24,22 @@
   overflow-x: hidden;
 }
 
+.menuBtn {
+  display: none;
+}
+
+.mobileNav {
+  display: none;
+}
+
+.timelineimg {
+  display: none;
+}
+
+.advantagesBtn {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -42,14 +58,6 @@ a {
   position: relative;
   display: flex;
   justify-content: space-between;
-}
-
-.menuBtn {
-  display: none;
-}
-
-.mobileNav {
-  display: none;
 }
 
 .menuHeader > nav > ul {

@@ -289,3 +289,75 @@
     left: 265px;
   }
 }
+
+@media screen and (max-width: 625px) {
+  .menuHeader {
+    justify-content: space-around;
+  }
+
+  h1 {
+    max-width: 350px;
+    font-size: 2.8rem;
+  }
+
+  .textHeader {
+    max-width: 350px;
+  }
+
+  .imgHeader {
+    max-width: 450px;
+  }
+
+  .iconCompany {
+    flex-wrap: wrap;
+  }
+
+  .iconLink {
+    padding: 20px 50px;
+  }
+
+  .timeline,
+  .userMessage,
+  .answer {
+    display: none;
+  }
+
+  .timelineimg {
+    display: block;
+    object-fit: cover;
+  }
+
+  .benefits {
+    padding-top: 50px;
+  }
+
+  .advantagesMainTitle {
+    font-size: 2rem;
+  }
+
+  .advantages {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-rows: auto;
+    margin: 50px 0;
+  }
+
+  .advantagesMainTitle {
+    grid-column: 1 / 1;
+  }
+
+  .advantagesEnd {
+    display: none;
+  }
+
+  .advantagesBtn {
+    margin-top: 50px;
+    padding: 18px 85px;
+    font-weight: 500;
+    color: #7259fa;
+    background-color: #ece5ff;
+    border-radius: 5px;
+    display: inline;
+    justify-self: center;
+  }
+}
