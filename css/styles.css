@@ -39,8 +39,17 @@ a {
 }
 
 .menuHeader {
+  position: relative;
   display: flex;
   justify-content: space-between;
+}
+
+.menuBtn {
+  display: none;
+}
+
+.mobileNav {
+  display: none;
 }
 
 .menuHeader > nav > ul {
@@ -62,7 +71,6 @@ a {
 }
 
 .menuHeaderLink,
-.logHeader,
 .btnFree {
   font-family: var(--font-family);
   color: var(--title-color);
