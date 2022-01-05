@@ -42,8 +42,17 @@
 }
 
 @media screen and (max-width: 990px) {
+  .menuHeader {
+    justify-content: space-between;
+  }
+
   .logoHeader {
     font-size: 1.2rem;
+    padding-right: 20px;
+  }
+
+  .logBtn {
+    padding-left: 20px;
   }
 
   .save::after {
@@ -90,8 +99,20 @@
     flex-wrap: wrap;
   }
 
+  .benefitsTitle,
+  .benefitsInfo {
+    text-align: center;
+  }
+
   .benefitsText:nth-child(4) {
     border-bottom: 1px solid #e1e5ea;
+  }
+
+  .benefitsText:hover {
+    border-left: 1px solid #e1e5ea;
+    border-bottom: 8px solid #794cff;
+    transition: border-bottom 0.3s;
+    border-radius: 5px;
   }
 
   .advantages {
@@ -123,6 +144,10 @@
 @media screen and (max-width: 800px) {
   * {
     font-size: 14px;
+  }
+
+  .menuHeader {
+    justify-content: space-around;
   }
 
   .menuHeaderLink {
@@ -292,6 +317,10 @@
   .answer {
     left: 265px;
   }
+
+  .advantages {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 625px) {
@@ -367,6 +396,34 @@
   }
 }
 
+@media screen and (max-width: 430px) {
+  .imgHeader {
+    max-width: 380px;
+  }
+
+  .iconLink {
+    padding: 0 25px;
+  }
+
+  .iconSlack {
+    display: none;
+  }
+
+  .iconHeader {
+    max-width: 50px;
+    min-height: 10px;
+  }
+
+  .advantagesMainTitle {
+    font-size: 1.7rem;
+  }
+
+  .advantagesBox > i {
+    font-size: 1.3rem;
+    padding: 15px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .menuHeader {
     justify-content: space-between;
@@ -408,7 +465,7 @@
   }
 
   .iconLink {
-    padding: 10px 20px;
+    padding: 0px 15px;
   }
 
   .timelineimg {
